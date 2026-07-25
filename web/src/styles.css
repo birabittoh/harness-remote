@@ -1697,6 +1697,10 @@ button.compact {
     grid-template-columns: 1fr;
   }
 
+  .session-card .inline-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .session-card-main {
     grid-template-columns: minmax(0, 1fr);
   }
