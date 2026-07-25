@@ -2479,15 +2479,9 @@ function App() {
               className={isWorking && !composer.trim() ? "btn-danger" : "btn-primary"}
             >
               {isWorking && !composer.trim() ? (
-                <>
-                  <StopCircleIcon size={18} />
-                  {t('detail.waiting')}
-                </>
+                <StopCircleIcon size={18} />
               ) : (
-                <>
-                  <SendIcon size={18} />
-                  {t('detail.send')}
-                </>
+                <SendIcon size={18} />
               )}
             </button>
           </div>
