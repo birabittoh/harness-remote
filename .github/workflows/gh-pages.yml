@@ -5,6 +5,7 @@ name: Deploy web app to GitHub Pages
   push:
     branches:
       - main
+      - pwa
     paths:
       - "web/**"
       - ".github/workflows/gh-pages.yml"
